@@ -9,4 +9,14 @@ This is a basic encryption program written in c. It basically takes a file as an
 2. Compile the 'encryption.c' program:
    ```gcc -c encryption.c encryption```
 3. Run the Executable:
-   ```./encryption```
+   ```./encryption <mode> <filename.ext> <secret_key>```
+## Usage
+It has two modes:
+1. Encryption(e)
+2. Decryption(d)
+For both modes a filename.ext and secretkey argument is needed:
+### Encryption
+```./encryption e hello.txt 3123```
+### Decryption
+```./decryption e hello.txt 3123```
+
