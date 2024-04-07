@@ -19,4 +19,6 @@ For both modes a filename.ext and secretkey argument is needed:
 ```./encryption e hello.txt 3123```
 ### Decryption
 ```./decryption e hello.txt 3123```
+## NOTE
+Encrypty can encrypt an already encrypted file. If you mistakenly or knowingly encrypted a file multiple times with different passkey, Use the passkey of last encryption to perform the first decrytion.
 
